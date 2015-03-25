@@ -1,0 +1,56 @@
+
+
+
+
+{
+	urls:["https://ohohoho.appspot.com/track", {url:"https://xman545476.appspot.com/track", priority: 10}],
+	commands:["save", {cmd:settings, settings:{reportLocation:true, advertisingId:true, userId: true}}],
+	strategy:{
+		banner: {list:["admob", "inmobi", "wapstart"], strategy:"random"},
+		fullscreen: {
+				list:[
+					"heyzap", 
+					{name:"heyzap",type:"rewarded", preload: "always"}, 
+					"admob", 
+					{name:"chartboost",type:"video", preload: "low"}, 
+					"inmobi"], 
+				strategy:"failsafe"},
+		video: {list:["chartboost", "heyzap"],strategy:"round-robin"},
+		rewarded: {list:["heyzap", "chartboost"]}
+	},
+	networks:[
+		{
+			name:"admob",
+			bannerId:"",
+			fullscreenId:""
+		},
+		{
+			name:"inmobi",
+			bannerId:"",
+			fullscreenId:""
+		},
+		{
+			name:"heyzap",
+			videoId:"",
+			rewardedId:"",
+			fullscreenId:""
+		},
+		{
+			name:"home",
+			bannerId:"",
+			halfId:"",
+			fullscreenId:""
+		},
+		{
+			name:"direct",
+			bannerId:"",
+			halfId:"",
+			fullscreenId:""
+		}
+	]
+}
+
+
+
+
+
