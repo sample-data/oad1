@@ -26,8 +26,13 @@
 		},
 		{
 			"name":"inmobi",
-			"bannerId":"",
-			"fullscreenId":""
+			"bannerId":"d4783f2efd4147499e40cc3540f2d221",
+			"fullscreenId":"d4783f2efd4147499e40cc3540f2d221"
+		},
+		{
+			"name":"chartboost",
+			"id":"5519c460c909a67c4e1e58a4",
+			"sig":"e34adc93d56dfcff2a3a34d5f0dcd74204cbaf05"
 		},
 		{
 			"name":"heyzap",
