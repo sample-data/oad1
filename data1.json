@@ -21,8 +21,8 @@
 	"networks":[
 		{
 			"name":"admob",
-			"bannerId":"",
-			"fullscreenId":""
+			"bannerId":"ca-app-pub-8607147313123654/8458359243",
+			"fullscreenId":"ca-app-pub-8607147313123654/9935092440"
 		},
 		{
 			"name":"inmobi",
