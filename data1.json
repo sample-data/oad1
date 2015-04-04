@@ -14,7 +14,7 @@
 					"admob", 
 					{"name":"chartboost","type":"video", "preload": "low"}, 
 					"inmobi"], 
-				"strategy":"failsafe"},
+				"strategy":"random"},
 		"video": {"list":["chartboost", "heyzap"],"strategy":"round-robin"},
 		"rewarded": {"list":["heyzap", "chartboost"]}
 	},
