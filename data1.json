@@ -10,6 +10,7 @@
 		"fullscreen": {
 				"list":[
 					"heyzap", 
+					"adcolony",
 					{"name":"heyzap","type":"rewarded", "preload": "always"}, 
 					"admob", 
 					{"name":"chartboost","type":"video", "preload": "low"}, 
