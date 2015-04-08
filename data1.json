@@ -27,8 +27,10 @@
 		{
 			"name":"inmobi",
 			"propId":"d4783f2efd4147499e40cc3540f2d221",
-			"bannerId":"1428178968194889",
-			"fullscreenId":"1428178928625995"
+			"bannerId":"d4783f2efd4147499e40cc3540f2d221",
+			"fullscreenId":"d4783f2efd4147499e40cc3540f2d221"
+			"bannerId1":"1428178968194889",
+			"fullscreenId1":"1428178928625995"
 		},
 		{
 			"name":"chartboost",
