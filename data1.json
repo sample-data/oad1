@@ -9,6 +9,12 @@
 		"banner": {"list":["admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
 		"fullscreen": {
 				"list":[
+					"aerserv", 
+					"inmobi"], 
+				"strategy":"random"},
+		"fullscreen1": {
+				"list":[
+					"aerserv", 
 					"heyzap", 
 					"adcolony",
 					{"name":"heyzap","type":"rewarded", "preload": "always"}, 
