@@ -6,7 +6,7 @@
 	"urls":["https://ohohoho.appspot.com/track", {"url":"https://xman545476.appspot.com/track", "priority": 10}],
 	"commands":["save", {"cmd":"settings", "settings":{"reportLocation":true, "advertisingId":true, "userId": true}}],
 	"strategy":{
-		"banner": {"list":["admob", "inmobi", "wapstart"], "strategy":"random"},
+		"banner": {"list":["admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
 		"fullscreen": {
 				"list":[
 					"heyzap", 
@@ -46,6 +46,12 @@
 			"name":"adcolony",
 			"id":"app398cb71e4cae463f94",
 			"zone":"vzc71a58270b924c95a0"
+		},
+		{
+			"name":"aerserv",
+			"fullscrenId":"1000741",
+			"banner320":"1000834",
+			"banner728":"1000835"
 		},
 		{
 			"name":"home",
