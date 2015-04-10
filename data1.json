@@ -7,12 +7,12 @@
 	"commands":["save", {"cmd":"settings", "settings":{"reportLocation":true, "advertisingId":true, "userId": true}}],
 	"strategy":{
 		"banner": {"list":["admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
-		"fullscreen": {
+		"fullscreen2": {
 				"list":[
 					"aerserv", 
 					"inmobi"], 
 				"strategy":"random"},
-		"fullscreen1": {
+		"fullscreen": {
 				"list":[
 					"aerserv", 
 					"heyzap", 
