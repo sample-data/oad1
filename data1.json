@@ -23,7 +23,7 @@
 					"inmobi"], 
 				"strategy":"random"},
 		"video": {"list":["chartboost", "heyzap"],"strategy":"round-robin"},
-		"rewarded": {"list":["heyzap", "chartboost"]}
+		"rewarded": {"list":["chartboost", "heyzap"]}
 	},
 	"networks":[
 		{
