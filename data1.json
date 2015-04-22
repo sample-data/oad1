@@ -3,6 +3,7 @@
 
 
 {
+	"debug":{"verify":true},
 	"urls":["https://ohohoho.appspot.com/track", {"url":"https://xman545476.appspot.com/track", "priority": 10}],
 	"commands":["save", {"cmd":"settings", "settings":{"reportLocation":true, "advertisingId":true, "userId": true}}],
 	"strategy":{
