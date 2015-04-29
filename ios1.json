@@ -1,0 +1,72 @@
+{
+	"debug":{"verify":true},
+	"urls":["https://ohohoho.appspot.com/track", {"url":"https://xman545476.appspot.com/track", "priority": 10}],
+	"commands":["save", {"cmd":"settings", "settings":{"reportLocation":true, "advertisingId":true, "userId": true}}],
+	"strategy":{
+		"banner": {"list":["admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
+		"fullscreen2": {
+				"list":[
+					"aerserv", 
+					"inmobi"], 
+				"strategy":"random"},
+		"fullscreen": {
+				"list":[
+					"aerserv", 
+					"heyzap", 
+					"adcolony",
+					{"name":"heyzap","type":"rewarded", "preload": "always"}, 
+					"admob", 
+					{"name":"chartboost","type":"video", "preload": "low"}, 
+					"inmobi"], 
+				"strategy":"random"},
+		"video": {"list":["chartboost", "heyzap"],"strategy":"round-robin"},
+		"rewarded": {"list":["chartboost", "heyzap"]}
+	},
+	"networks":[
+		{
+			"name":"admob",
+			"bannerId":"ca-app-pub-8607147313123654/3153844440",
+			"fullscreenId":"ca-app-pub-8607147313123654/9935092440"
+		},
+		{
+			"name":"inmobi",
+			"propId":"d4783f2efd4147499e40cc3540f2d221",
+			"bannerId":"d4783f2efd4147499e40cc3540f2d221",
+			"fullscreenId":"d4783f2efd4147499e40cc3540f2d221",
+			"bannerId1":"1428178968194889",
+			"fullscreenId1":"1428178928625995"
+		},
+		{
+			"name":"chartboost",
+			"id":"5540a8e243150f5cbcdb36cc",
+			"sig":"f1d3be1d7742dbd3c973310d7dfb568f5470ad50"
+		},
+		{
+			"name":"heyzap",
+			"id":"e0c44b21d39c921a55f31ea836a70b65"
+		},
+		{
+			"name":"adcolony",
+			"id":"app218867daeef6476b87",
+			"zone":"vz6c6d3d7370b247d5b7"
+		},
+		{
+			"name":"aerserv",
+			"fullscreenId":"1000741",
+			"banner320":"1000834",
+			"banner728":"1000835"
+		},
+		{
+			"name":"home",
+			"bannerId":"",
+			"halfId":"",
+			"fullscreenId":""
+		},
+		{
+			"name":"direct",
+			"bannerId":"",
+			"halfId":"",
+			"fullscreenId":""
+		}
+	]
+}
