@@ -30,11 +30,9 @@
 		},
 		{
 			"name":"inmobi",
-			"propId":"d4783f2efd4147499e40cc3540f2d221",
-			"bannerId":"d4783f2efd4147499e40cc3540f2d221",
-			"fullscreenId":"d4783f2efd4147499e40cc3540f2d221",
-			"bannerId1":"1428178968194889",
-			"fullscreenId1":"1428178928625995"
+			"propId":"d80a4fe0ae134fa3ac561ebff775f1cc",
+			"bannerId":"d80a4fe0ae134fa3ac561ebff775f1cc",
+			"fullscreenId":"d80a4fe0ae134fa3ac561ebff775f1cc"
 		},
 		{
 			"name":"chartboost",
