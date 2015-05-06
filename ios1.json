@@ -21,7 +21,7 @@
 					"inmobi"], 
 				"strategy":"random"},
 		"video": {"list":["chartboost", "heyzap"],"strategy":"round-robin"},
-		"rewarded": {"list":["chartboost", "heyzap"]}
+		"rewarded": {"list":["chartboost", "heyzap", "adcolony"]}
 	},
 	"networks":[
 		{
