@@ -3,7 +3,7 @@
 	"urls":["https://ohohoho.appspot.com/track", {"url":"https://xman545476.appspot.com/track", "priority": 10}],
 	"commands":["save", {"cmd":"settings", "settings":{"reportLocation":true, "advertisingId":true, "userId": true}}],
 	"strategy":{
-		"banner": {"list":["admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
+		"banner": {"list":["iad", "admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
 		"fullscreen2": {
 				"list":[
 					"aerserv", 
@@ -11,6 +11,7 @@
 				"strategy":"random"},
 		"fullscreen": {
 				"list":[
+					"iad",
 					"aerserv", 
 					"heyzap", 
 					"adcolony",
@@ -23,6 +24,9 @@
 		"rewarded": {"list":["chartboost", "heyzap"]}
 	},
 	"networks":[
+		{
+			"name":"iad"
+		},
 		{
 			"name":"admob",
 			"bannerId":"ca-app-pub-8607147313123654/3153844440",
