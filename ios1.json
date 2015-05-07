@@ -54,11 +54,7 @@
 			"name":"heyzap",
 			"id":"e0c44b21d39c921a55f31ea836a70b65",
 			"video": "true",
-			"rewarded": true,
-			"video1": "YES",
-			"rewarded1": "1",
-			"video2": "false",
-			"rewarded2": false
+			"rewarded": true
 		},
 		{
 			"name":"adcolony",
