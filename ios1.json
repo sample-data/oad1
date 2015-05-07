@@ -5,9 +5,7 @@
 	"strategy":{
 		"banner": {"list":["iad", "admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
 		"fullscreen2": {
-				"list":[
-					"aerserv", 
-					"inmobi"], 
+				"list":["aerserv",  "inmobi"], 
 				"strategy":"random"},
 		"fullscreen": {
 				"list":[
@@ -21,7 +19,7 @@
 					"inmobi"], 
 				"strategy":"random"},
 		"video": {"list":["admob", "adcolony", "chartboost", "heyzap"],"strategy":"round-robin"},
-		"rewarded": {"list":["adcolony", "heyzap", "chartboost"]}
+		"rewarded": {"list":["adcolony", "heyzap", "chartboost"],"strategy":"round-robin"}
 	},
 	"networks":[
 		{
