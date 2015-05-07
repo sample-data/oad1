@@ -20,7 +20,7 @@
 					{"name":"chartboost","type":"video", "preload": "low"}, 
 					"inmobi"], 
 				"strategy":"random"},
-		"video": {"list":["admob", "chartboost", "heyzap"],"strategy":"round-robin"},
+		"video": {"list":["admob", "adcolony", "chartboost", "heyzap"],"strategy":"round-robin"},
 		"rewarded": {"list":["adcolony", "heyzap", "chartboost"]}
 	},
 	"networks":[
