@@ -46,16 +46,21 @@
 		{
 			"name":"chartboost",
 			"id":"5540a8e243150f5cbcdb36cc",
-			"sig":"f1d3be1d7742dbd3c973310d7dfb568f5470ad50"
+			"sig":"f1d3be1d7742dbd3c973310d7dfb568f5470ad50",
+			"video": "true",
+			"rewarded": "true"
 		},
 		{
 			"name":"heyzap",
-			"id":"e0c44b21d39c921a55f31ea836a70b65"
+			"id":"e0c44b21d39c921a55f31ea836a70b65",
+			"video": "true",
+			"rewarded": "true"
 		},
 		{
 			"name":"adcolony",
 			"id":"app218867daeef6476b87",
-			"zone":"vz6c6d3d7370b247d5b7"
+			"videoId":"vz6c6d3d7370b247d5b7",
+			"rewardedId":"vz6c6d3d7370b247d5b7"
 		},
 		{
 			"name":"aerserv",
