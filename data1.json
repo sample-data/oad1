@@ -43,11 +43,15 @@
 		{
 			"name":"chartboost",
 			"id":"5519c460c909a67c4e1e58a4",
-			"sig":"e34adc93d56dfcff2a3a34d5f0dcd74204cbaf05"
+			"sig":"e34adc93d56dfcff2a3a34d5f0dcd74204cbaf05",
+			"video": "true",
+			"rewarded": "true"
 		},
 		{
 			"name":"heyzap",
-			"id":"e0c44b21d39c921a55f31ea836a70b65"
+			"id":"e0c44b21d39c921a55f31ea836a70b65",
+			"video": "true",
+			"rewarded": "true"
 		},
 		{
 			"name":"adcolony",
