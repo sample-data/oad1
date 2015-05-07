@@ -30,7 +30,9 @@
 		{
 			"name":"admob",
 			"bannerId":"ca-app-pub-8607147313123654/3153844440",
-			"fullscreenId":"ca-app-pub-8607147313123654/4630577642"
+			"fullscreenId":"ca-app-pub-8607147313123654/4630577642",
+			"videoId":"ca-app-pub-8607147313123654/9580860844",
+			"testDevices":["d520738c308d88b88f2edb9a4f63ff37"]
 		},
 		{
 			"name":"inmobi",
