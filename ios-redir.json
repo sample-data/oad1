@@ -1,0 +1,6 @@
+{
+  "redirect":{
+    "type":"static",
+    "url":"https://raw.githubusercontent.com/sample-data/oad1/master/ios1.json"
+  }
+}
