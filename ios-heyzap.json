@@ -1,0 +1,44 @@
+{
+	"debug":{"verify":true},
+	"urls":["https://ohohoho.appspot.com/track", {"url":"https://xman545476.appspot.com/track", "priority": 10}],
+	"commands":["save", {"cmd":"settings", "settings":{"reportLocation":true, "advertisingId":true, "userId": true}}],
+	"strategy":{
+		"banner": {"list":["iad", "admob", "inmobi", "wapstart", "aerserv"], "strategy":"random"},
+		"fullscreen2": {
+				"list":["aerserv",  "inmobi"], 
+				"strategy":"random"},
+		"fullscreen": {
+				"list":[
+					"iad",
+					"aerserv", 
+					"heyzap", 
+					"adcolony",
+					{"name":"heyzap","type":"rewarded", "preload": "always"}, 
+					"admob", 
+					{"name":"chartboost","type":"video", "preload": "low"}, 
+					"inmobi"], 
+				"strategy":"random"},
+		"video": {"list":["admob", "adcolony", "chartboost", "heyzap"],"strategy":"round-robin"},
+		"rewarded": {"list":["adcolony", "heyzap", "chartboost"],"strategy":"round-robin"}
+	},
+	"networks":[
+		{
+			"name":"heyzap",
+			"id":"e0c44b21d39c921a55f31ea836a70b65",
+			"video": "true",
+			"rewarded": true
+		},
+		{
+			"name":"home",
+			"bannerId":"",
+			"halfId":"",
+			"fullscreenId":""
+		},
+		{
+			"name":"direct",
+			"bannerId":"",
+			"halfId":"",
+			"fullscreenId":""
+		}
+	]
+}
